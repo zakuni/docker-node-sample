@@ -1,0 +1,11 @@
+{
+  "name": "docker-node-sample",
+  "version": "0.0.1",
+  "description": "sample app using docker and node(express)",
+  "main": "index.js",
+  "author": "zakuni",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
