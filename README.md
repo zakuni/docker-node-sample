@@ -3,6 +3,12 @@ docker-node-sample
 
 sample app using docker and node(express)
 
+## Build
+
+```
+docker-compose build
+```
+
 ## Run
 
 ```sh
