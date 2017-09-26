@@ -12,7 +12,7 @@ docker-compose build
 ## Run
 
 ```sh
-docker-compose up
+docker-compose -f docker-compose.yml -f docker-compose.dev.yml up
 ```
 open http://localhost:3000
 
