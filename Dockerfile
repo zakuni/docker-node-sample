@@ -15,5 +15,6 @@ COPY . $HOME/sample-app
 RUN chown -R app:app $HOME/*
 USER app
 
+ENV NODE_ENV=production
 EXPOSE 3000
 CMD ["node", "index.js"]
